@@ -9,12 +9,7 @@ var locations = [
         ['Sand Hollow State Park', 37.167410, -113.373860],
         ['Zion National Park', 37.348099, -113.089996],
         ['McCarran International Airport', 36.439240, -115.247280]
-
-
-
     ];
-
-
 
 function initMap() {
     var blackRockUtah = {lat: 38.615900, lng: -112.609360};
@@ -25,8 +20,6 @@ function initMap() {
         });
 
     var count=0;
-
-
     for (count = 0; count < locations.length; count++) {
 
         var marker = new google.maps.Marker({
@@ -38,12 +31,9 @@ function initMap() {
             content: locations [count][0]
             });
 
-
         google.maps.event.addListener(marker, 'click', function() {
-            // this = marker
             var marker_map = this.getMap();
             this.info.open(marker_map, this);
-            // Note: If you call open() without passing a marker, the InfoWindow will use the position specified upon construction through the InfoWindowOptions object literal.
             });
     }
 }
