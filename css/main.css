@@ -12,6 +12,10 @@
 
 /*Bootstrap components*/
 
+.jumbotron-heading {
+  color: tomato;
+}
+
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -54,4 +58,19 @@ footer p {
 
 .fa-2x {
   padding-right: 15px;
+}
+
+
+/*images*/
+
+.venmo {
+  height: 1.8rem;
+  padding-right: 1.3rem;
+  vertical-align: bottom;
+
+}
+
+.fa-gratipay {
+  color: tomato;
+  padding-right: 1.2rem;
 }
