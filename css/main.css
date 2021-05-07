@@ -1,11 +1,19 @@
+/* STYLE GUIDE */
 
-/*Navbar*/
+/*
+tomato rgb: 255, 99, 71
+tomato hex: #ff6347
+navbar background hex: #212529
+
+*/
+
+/*NAVBAR*/
 
 .nav-main {
   color: tomato;
 }
 
-/*Bootstrap components*/
+/* BOOTSTRAP COMPONENTS */
 
 .jumbotron-heading {
   color: tomato;
@@ -45,7 +53,7 @@ footer p {
   margin-bottom: .25rem;
 }
 
-/*font awesome*/
+/* FONT AWESOME*/
 
 .fab fa-gratipay {
   padding: 10px;
@@ -55,7 +63,7 @@ footer p {
   padding-right: 15px;
 }
 
-/*images*/
+/* IMAGES */
 
 .venmo {
   height: 1.8rem;
@@ -67,4 +75,11 @@ footer p {
 .fa-gratipay {
   color: tomato;
   padding-right: 1.2rem;
+}
+
+/* GENERAL */
+
+#thanks {
+color: tomato;
+font-family: 'Sofia', cursive;
 }
