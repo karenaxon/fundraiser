@@ -7,11 +7,7 @@ navbar background hex: #212529
 
 */
 
-/*NAVBAR*/
-
-.nav-main {
-  color: tomato;
-}
+/* ----- In alphabetical order ----- */
 
 /* BOOTSTRAP COMPONENTS */
 
@@ -21,8 +17,6 @@ navbar background hex: #212529
 
 .jumbotron {
   padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
   background-color: #fff;
 }
 @media (min-width: 768px) {
@@ -53,15 +47,45 @@ footer p {
   margin-bottom: .25rem;
 }
 
-/* FONT AWESOME*/
 
-.fab fa-gratipay {
-  padding: 10px;
+/* CAROUSEL */
+
+.carousel .carousel-indicators {
+  background-color: tomato;
 }
 
-.fa-2x {
-  padding-right: 15px;
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: tomato;
 }
+
+.carousel-inner img {
+  max-width: 400px;
+  max-height: 500px;
+}
+
+#donationsCarousel {
+  max-width: 400px;
+  max-height: 500px;
+
+}
+
+
+footer #about {
+  padding-left: 1rem;
+}
+
+
+/* GENERAL */
+
+#thanks {
+  color: tomato;
+  font-family: 'Sofia', cursive;
+}
+
+#tomato {
+  color: tomato;
+}
+
 
 /* IMAGES */
 
@@ -77,9 +101,25 @@ footer p {
   padding-right: 1.2rem;
 }
 
-/* GENERAL */
 
-#thanks {
-color: tomato;
-font-family: 'Sofia', cursive;
+/*NAVBAR*/
+
+.nav-main {
+  color: tomato;
 }
+
+
+
+
+
+/* FONT AWESOME*/
+
+.fab fa-gratipay {
+  padding: 10px;
+}
+
+.fa-2x {
+  padding-right: 15px;
+}
+
+
