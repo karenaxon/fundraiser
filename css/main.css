@@ -26,10 +26,6 @@ navbar background hex: #212529
   }
 }
 
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
 .jumbotron-heading {
   font-weight: 300;
 }
@@ -83,6 +79,12 @@ footer #about {
 
 .tomato {
   color: tomato;
+}
+
+#map {
+  height: 30rem;
+  width: 100%;
+
 }
 
 
