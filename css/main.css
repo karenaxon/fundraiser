@@ -16,13 +16,13 @@ navbar background hex: #212529
 }
 
 .jumbotron {
-  padding-top: 3rem;
   background-color: #fff;
 }
+
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -45,6 +45,10 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+footer #about {
+  padding-left: 1rem;
 }
 
 
@@ -70,11 +74,6 @@ footer p {
 }
 
 
-footer #about {
-  padding-left: 1rem;
-}
-
-
 /* GENERAL */
 
 #thanks {
@@ -82,7 +81,7 @@ footer #about {
   font-family: 'Sofia', cursive;
 }
 
-#tomato {
+.tomato {
   color: tomato;
 }
 
@@ -107,9 +106,6 @@ footer #about {
 .nav-main {
   color: tomato;
 }
-
-
-
 
 
 /* FONT AWESOME*/
